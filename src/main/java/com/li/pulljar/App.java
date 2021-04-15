@@ -100,7 +100,7 @@ public class App {
 	 */
 	public static void renameFile(String path, String oldname, String newname) {
 		if (!oldname.equals(newname)) {// 新的文件名和以前文件名不同时,才有必要进行重命名
-			File oldfile = new File(path + "/" + oldname);
+			File oldfile = new File(path + "/" + newname);
 			File newfile = new File(path + "/" + newname);
 			if (!oldfile.exists()) {
 				return;// 重命名文件不存在
