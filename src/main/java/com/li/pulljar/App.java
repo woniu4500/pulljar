@@ -109,7 +109,7 @@ public class App {
 				return;// 重命名文件不存在
 			}
 			if (newfile.exists())// 若在该目录下已经有一个文件和新文件名相同，则不允许重命名
-				System.out.println(newname + "已经存在！");
+				System.out.println(newname + "大家好！");
 			else {
 				oldfile.renameTo(newfile);
 			}
